@@ -1,0 +1,40 @@
+.box{
+    box-shadow: 1px 1px 20px 1px rgb(224, 224, 224);
+    margin-top: 60px;
+    
+    border-radius: 5px;
+    padding: 50px;
+
+
+}
+form {
+    padding-top: 50px;
+}
+
+.text{
+    color: #198754;
+}
+
+.btn{
+    border-radius: 500px;
+    
+}
+.modal-title{
+    color:#198754;
+}
+.modal {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    .modal:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: " ";
+      height: 100%;
+    }
+  }
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
