@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   </head>
+<body>
+
+      <header>
+              <nav class="fixed-top ">
+                  <ul class="nav justify-content-end mr-5 mt-2">
+
+                    <li class="nav-item">
+                      <a class="nav-link text-success"><i class="fas fa-money-bill-alt"></i> </a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-success" href="">Tela Inicial</a>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Quem Somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Cotações</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Gráficos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-success" href="#">Entrar</a>
+                        </li>
+                        <button type="button" class="btn btn-success">Cadastro</button>
+                    </ul>
+              </nav>
+          </div>
+      </header>
+
+    
+  <div class="container">
+    <div class="title">Cadastro</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nome Completo*</span>
+            <input type="text" placeholder="Digite seu nome completo" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Digite seu Email"required>
+          </div>
+          <div class="input-box">
+            <span class="details">Data de Nascimento</span>
+            <input type="date" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Senha</span>
+            <input type="password" placeholder="Digite uma senha" required>
+          </div>
+          <div class="input-box">
+            <div id="genero" class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <input type="radio" name="gender" id="dot-4">
+                <span class="gender-title">Você se identifica como:*</span>
+                <div class="category">
+                  <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="gender">Homem</span>
+                </label>
+                <label for="dot-2">
+                  <span class="dot two"></span>
+                  <span class="gender">Mulher</span>
+                </label>
+                <label for="dot-3">
+                  <span class="dot tree"></span>
+                  <span class="gender">outro</span>
+                </label>
+
+                
+                </div>
+              </div>
+          </div>
+
+          
+          <div class="input-box">
+            <span class="details">Repita sua senha</span>
+            <input type="password" placeholder="Repita sua senha" required>
+          </div>
+
+          <div class="input-box">
+          </div>
+
+          <div class="input-box">
+            <div id="genero" class="gender-details">
+                <input type="radio" name="gender" id="dot-5">
+                <input type="radio" name="gender" id="dot-6">
+                <input type="radio" name="gender" id="dot-7">
+                <span class="gender-title">Moedas de Interesse:</span>
+                <div class="category">
+                  <label for="dot-5">
+                  <span class="dot five"></span>
+                  <span class="gender">Dólar</span>
+                </label>
+                <label for="dot-6">
+                  <span class="dot six"></span>
+                  <span class="gender">Libra</span>
+                </label>
+                <label for="dot-7">
+                  <span class="dot seven"></span>
+                  <span class="gender">Peso</span>
+                </label>
+               
+                </div>
+              </div>
+          </div>
+
+          <div class="input-box">
+          </div>
+          <div class="input-box">
+            <div id="genero" class="gender-details">
+                <input type="radio" name="gender" id="dot-8">
+                <input type="radio" name="gender" id="dot-9">
+                <input type="radio" name="gender" id="dot-10">
+                
+                <div class="category">
+                  <label for="dot-8">
+                  <span class="dot eight"></span>
+                  <span class="gender">Euro</span>
+                </label>
+                <label for="dot-9">
+                  <span class="dot nine"></span>
+                  <span class="gender">Bitcoin</span>
+                </label>
+                <label for="dot-10">
+                  <span class="dot ten"></span>
+                  <span class="gender">Iene</span>
+                </label>
+                </div>
+              </div>
+          </div>
+
+          <div class="input-box">
+            <div class="button">
+              <input type="submit" value="Cancelar">
+            </div>
+        </div>
+
+        <div class="input-box">
+          <div class="button ">
+            <input type="submit" value="Avançar">
+          </div>
+      </div>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
