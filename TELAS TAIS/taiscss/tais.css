@@ -1,0 +1,69 @@
+h1 {position: absolute;
+    width: 394px;
+    height: 84px;
+    left: 114px;
+    top: 0px;
+    
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 74px;
+    
+    color: #01A355;
+    }
+
+
+    .corpo label{position: absolute;
+     
+        
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 60px;
+        
+        color: #696969;
+        }
+
+        .corpo {position: absolute;
+            width: 442px;
+            height: 720px;
+            left: 118px;
+            top: 162px;
+            
+            
+            }
+
+            .resultado label{position: absolute;
+     
+        
+                font-family: Palanquin;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 33px;
+                line-height: 60px;
+                
+                color: #696969;
+                }
+
+                .resultado {position: absolute;
+                    width: 442px;
+                    height: 720px;
+                    left: 500px;
+                    top: 162px;
+                    
+                    
+                    }
+                 .id { left:250px;}
+                  
+                 .retangulo {
+                    position: absolute;
+                    width: 500px;
+                    height: 430px;
+                    left: 720px;
+                    top: 168px;
+                    
+                    background: #01A355;
+                    border-radius: 11px;
+                 }
